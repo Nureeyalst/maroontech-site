@@ -1,0 +1,125 @@
+<!-- FRAME 1 ตัวอย่างตามที่คุณส่งมา ใช้ได้กับทุกกรอบ -->
+<div class="slider-frame frame-1">
+  <div class="slider-container" id="slider1">
+    <img src="img/Scadadesignpic.svg" alt="Scada Design 1" class="slider-image" />
+    <img src="img/scadadesignpic01.svg" alt="Scada Design 2" class="slider-image" />
+    <img src="img/scadadesignpic02.svg" alt="Scada Design 3" class="slider-image" />
+  </div>
+  <button class="nav-button prev" onclick="moveSlide(-1, 'slider1')">❮</button>
+  <button class="nav-button next" onclick="moveSlide(1, 'slider1')">❯</button>
+  <div class="dot-container">
+    <span class="dot" onclick="currentSlide(0, 'slider1')"></span>
+    <span class="dot" onclick="currentSlide(1, 'slider1')"></span>
+    <span class="dot" onclick="currentSlide(2, 'slider1')"></span>
+  </div>
+</div>
+
+<style>
+/* ===== FRAME ===== */
+.slider-frame {
+  position: absolute;
+  width: 392px;
+  height: 228px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  background-color: #f0f0f0;
+}
+
+/* ===== SLIDER CONTAINER ===== */
+.slider-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s ease-in-out;
+}
+
+.slider-image {
+  width: 392px;
+  height: 228px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+/* ===== ARROWS ===== */
+.nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #EACD25;
+  border: none;
+  font-size: 24px;
+  color: #000;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  z-index: 2;
+}
+
+.nav-button:hover {
+  transform: translateY(-50%) scale(1.1);
+  box-shadow: 0 6px 10px rgba(0,0,0,0.4);
+}
+
+.nav-button.prev { left: 5px; }
+.nav-button.next { right: 5px; }
+
+/* ===== DOTS ===== */
+.dot-container {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active,
+.dot:hover {
+  background-color: #EACD25;
+}
+
+/* ===== FRAME POSITIONING EXAMPLE ===== */
+.frame-1  { top: 294px;  left: 102px; }
+</style>
+
+<script>
+let slideIndexMap = {};
+
+function moveSlide(n, sliderId) {
+  const container = document.getElementById(sliderId);
+  const slides = container.querySelectorAll('.slider-image');
+  slideIndexMap[sliderId] = (slideIndexMap[sliderId] || 0) + n;
+  if (slideIndexMap[sliderId] >= slides.length) slideIndexMap[sliderId] = 0;
+  if (slideIndexMap[sliderId] < 0) slideIndexMap[sliderId] = slides.length - 1;
+  container.style.transform = `translateX(-${slideIndexMap[sliderId] * 392}px)`;
+  updateDots(sliderId);
+}
+
+function currentSlide(n, sliderId) {
+  const container = document.getElementById(sliderId);
+  slideIndexMap[sliderId] = n;
+  container.style.transform = `translateX(-${n * 392}px)`;
+  updateDots(sliderId);
+}
+
+function updateDots(sliderId) {
+  const slider = document.getElementById(sliderId).parentElement;
+  const dots = slider.querySelectorAll('.dot');
+  dots.forEach(dot => dot.classList.remove('active'));
+  if (dots[slideIndexMap[sliderId]]) {
+    dots[slideIndexMap[sliderId]].classList.add('active');
+  }
+}
+</script>

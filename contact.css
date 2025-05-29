@@ -1,0 +1,693 @@
+.desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 1925px;
+  position: relative;
+}
+
+.desktop .text-wrapper {
+  top: 245px;
+  left: 645px;
+  font-family: "Noto Sans Thai", sans-serif;
+  font-weight: 600;
+  color: #2d2d2d;
+  font-size: 40px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .p {
+  position: absolute;
+  top: 1183px;
+  left: 588px;
+  font-family: "Noto Sans Thai-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #2d2d2d;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .div-2 {
+  position: absolute;
+  width: 1464px;
+  height: 168px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .text-wrapper-2 {
+  position: absolute;
+  top: 12px;
+  left: 1371px;
+  font-family: "Noto Sans Thai", sans-serif;
+  font-weight: 500;
+  color: #fff5f3;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .view {
+  position: absolute;
+  width: 279px;
+  height: 72px;
+  top: 96px;
+  left: 111px;
+}
+
+.desktop .smalllogomaroontech {
+  position: absolute;
+  width: 74px;
+  height: 72px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.desktop .text-wrapper-3 {
+  position: absolute;
+  width: 183px;
+  top: 25px;
+  left: 96px;
+  font-family: 'Russo One', sans-serif;
+  font-weight: 400;
+  color: #2d2d2d;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .overlap-group {
+  position: absolute;
+  width: 1440px;
+  height: 70px;
+  top: 0;
+  left: 0;
+  background-image: url(./img/rectangle-9.png);
+  background-size: 100% 100%;
+}
+
+.desktop .thaiflag {
+  position: absolute;
+  width: 50px;
+  height: 33px;
+  top: 13px;
+  left: 1255px;
+  object-fit: cover;
+}
+
+.desktop .text-wrapper-4 {
+  position: absolute;
+  top: 13px;
+  left: 1312px;
+  font-family: "Noto Sans Thai", sans-serif;
+  font-weight: 500;
+  color: #fff5f3;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .div-wrapper {
+  width: 84px;
+  left: 618px;
+  position: absolute;
+  height: 43px;
+  top: 120px;
+}
+
+.desktop .text-wrapper-5 {
+  width: 84px;
+  top: -1px;
+  left: 0;
+  font-family: "Noto Sans Thai", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .view-2 {
+  width: 112px;
+  left: 726px;
+  position: absolute;
+  height: 43px;
+  top: 120px;
+}
+
+.desktop .text-wrapper-6 {
+  width: 112px;
+  top: -1px;
+  left: 0;
+  font-family: "Noto Sans Thai", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .view-3 {
+  width: 70px;
+  left: 862px;
+  position: absolute;
+  height: 43px;
+  top: 120px;
+}
+
+.desktop .text-wrapper-7 {
+  width: 70px;
+  top: -1px;
+  left: 0;
+  font-family: "Noto Sans Thai", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .view-4 {
+  width: 142px;
+  left: 956px;
+  position: absolute;
+  height: 43px;
+  top: 120px;
+}
+
+.desktop .text-wrapper-8 {
+  width: 142px;
+  top: -1px;
+  left: 0;
+  font-family: "Noto Sans Thai", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .view-5 {
+  width: 127px;
+  left: 1122px;
+  position: absolute;
+  height: 43px;
+  top: 120px;
+}
+
+.desktop .text-wrapper-9 {
+  width: 127px;
+  top: -1px;
+  left: 0;
+  font-family: "Noto Sans Thai", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .view-6 {
+  width: 93px;
+  left: 1273px;
+  position: absolute;
+  height: 43px;
+  top: 120px;
+}
+
+.desktop .text-wrapper-10 {
+  width: 93px;
+  top: -1px;
+  left: 0;
+  font-family: "Noto Sans Thai", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/* ===== เมนู: นูนมีมิติเข้มชัดแบบมืออาชีพ ===== */
+.desktop .text-wrapper-5,
+.desktop .text-wrapper-6,
+.desktop .text-wrapper-7,
+.desktop .text-wrapper-8,
+.desktop .text-wrapper-9,
+.desktop .text-wrapper-10 {
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.2s ease, text-shadow 0.2s ease;
+}
+
+.desktop .text-wrapper-5:hover,
+.desktop .text-wrapper-6:hover,
+.desktop .text-wrapper-7:hover,
+.desktop .text-wrapper-8:hover,
+.desktop .text-wrapper-9:hover,
+.desktop .text-wrapper-10:hover {
+  transform: translateY(-4px);
+  color: #1a1a1a; /* เข้มกว่าเดิม */
+  text-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5); /* เงานุ่มลึก */
+}
+
+.desktop .text-wrapper-11 {
+  top: 356px;
+  left: 526px;
+  font-family: "Noto Sans Thai", sans-serif;
+  font-weight: 500;
+  color: #2d2d2d;
+  font-size: 25px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .overlap {
+  position: absolute;
+  width: 653px;
+  height: 61px;
+  top: 481px;
+  left: 394px;
+}
+
+.desktop .group {
+  position: absolute;
+  width: 107px;
+  height: 61px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .facebookup {
+  position: absolute;
+  width: 105px;
+  height: 61px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+
+/* เอฟเฟกต์เบื้องต้น */
+  transition: transform 0.3s cubic-bezier(0.25, 1.5, 0.5, 1), box-shadow 0.3s ease;
+  transform-origin: center;
+  perspective: 1000px;
+}
+
+/* เมื่อ hover: เด้งแบบพุ่งเข้าหา */
+.desktop .facebookup:hover {
+  transform: scale(1.2) translateZ(30px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* เมื่อคลิก: กดลงเล็กน้อย */
+.desktop .facebookup:active {
+  transform: scale(0.95) translateZ(5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.desktop .maroontechlogocenter {
+  position: absolute;
+  width: 187px;
+  height: 201px;
+  top: 33px;
+  left: 630px;
+}
+
+.desktop .maroontech {
+  position: absolute;
+  top: 15px;
+  left: 87px;
+  font-family: "Noto Sans Thai", sans-serif;
+  font-weight: 400;
+  color: #2d2d2d;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .group-2 {
+  position: absolute;
+  width: 664px;
+  height: 46px;
+  top: 576px;
+  left: 389px;
+}
+
+.desktop .text-wrapper-12 {
+  top: 8px;
+  left: 53px;
+  font-family: "Noto Sans Thai", sans-serif;
+  font-weight: 400;
+  color: #2d2d2d;
+  font-size: 25px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .locationup-wrapper {
+  position: absolute;
+  width: 46px;
+  height: 44px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .locationup {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  top: 0;
+  left: 0;
+
+/* เพิ่มเอฟเฟกต์เด้งมีมิติ */
+  transition: transform 0.3s cubic-bezier(0.25, 1.5, 0.5, 1), box-shadow 0.3s ease;
+  transform-origin: center;
+  perspective: 1000px;
+}
+
+/* เด้งขึ้นชัดเจนเมื่อ hover */
+.desktop .locationup:hover {
+  transform: scale(1.2) translateZ(30px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* เมื่อคลิก (active) กดลง */
+.desktop .locationup:active {
+  transform: scale(0.95) translateZ(5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.desktop .text-wrapper-13 {
+  top: 420px;
+  left: 290px;
+  font-family: "Noto Sans Thai", sans-serif;
+  font-weight: 400;
+  color: #2d2d2d;
+  font-size: 25px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-14 {
+  position: absolute;
+  top: 419px;
+  left: 867px;
+  font-family: "Noto Sans Thai", sans-serif;
+  font-weight: 400;
+  color: #2d2d2d;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .phonelogoup {
+  position: absolute;
+  width: 32px;
+  height: 39px;
+  top: 420px;
+  left: 233px;
+  object-fit: cover;
+}
+
+.desktop .emailup-wrapper {
+  position: absolute;
+  width: 44px;
+  height: 38px;
+  top: 420px;
+  left: 802px;
+}
+
+.desktop .emailup {
+  position: absolute;
+  width: 42px;
+  height: 38px;
+  top: 0;
+  left: 0;
+
+/* เพิ่ม transition สำหรับเด้งแบบ 3D */
+  transition: transform 0.3s cubic-bezier(0.25, 1.5, 0.5, 1), box-shadow 0.3s ease;
+  transform-origin: center;
+  perspective: 1000px;
+}
+
+/* เมื่อ hover: พุ่งออกมา */
+.desktop .emailup:hover {
+  transform: scale(1.2) translateZ(30px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* เมื่อคลิก (active): กดลงเบา ๆ */
+.desktop .emailup:active {
+  transform: scale(0.95) translateZ(5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.desktop .rectangle {
+  position: absolute;
+  width: 1228px;
+  height: 453px;
+  top: 660px;
+  left: 92px;
+  background-color: #c4c4c4;
+}
+
+.desktop .group-3 {
+  position: absolute;
+  width: 1478px;
+  height: 598px;
+  top: 1327px;
+  left: -5px;
+}
+
+.desktop .overlap-2 {
+  position: absolute;
+  width: 1462px;
+  height: 598px;
+  top: 0;
+  left: 0;
+  background-color: #2d2d2d;
+}
+
+.desktop .facebook {
+  position: absolute;
+  width: 105px;
+  height: 61px;
+  top: 484px;
+  left: 679px;
+  object-fit: cover;
+
+
+/* เอฟเฟกต์เบื้องต้น */
+  transition: transform 0.3s cubic-bezier(0.25, 1.5, 0.5, 1), box-shadow 0.3s ease;
+  transform-origin: center;
+  perspective: 1000px;
+}
+
+/* เมื่อ hover: เด้งแบบพุ่งเข้าหา */
+.desktop .facebook:hover {
+  transform: scale(1.2) translateZ(30px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* เมื่อคลิก: กดลงเล็กน้อย */
+.desktop .facebook:active {
+  transform: scale(0.95) translateZ(5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.desktop .maroontechlogocenter {
+  position: absolute;
+  width: 187px;
+  height: 201px;
+  top: 33px;
+  left: 630px;
+}
+
+.desktop .maroontechlogocenter {
+  position: absolute;
+  width: 187px;
+  height: 201px;
+  top: 33px;
+  left: 630px;
+}
+
+.desktop .text-wrapper-15 {
+  position: absolute;
+  width: 187px;
+  top: 162px;
+  left: 0;
+    font-family: "Noto Sans Thai", sans-serif;
+
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  color: #fff5f3;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .logomiddle {
+  position: absolute;
+  width: 156px;
+  height: 152px;
+  top: 0;
+  left: 13px;
+  object-fit: cover;
+}
+
+.desktop .text-wrapper-16 {
+  top: 245px;
+  left: 549px;
+  font-family: "Noto Sans Thai", sans-serif;
+  font-weight: 500;
+  color: #fff5f3;
+  font-size: 25px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-17 {
+  top: 312px;
+  left: 438px;
+  font-family: "Noto Sans Thai", sans-serif;
+  font-weight: 400;
+  color: #fff5f3;
+  font-size: 25px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-18 {
+  top: 379px;
+  left: 533px;
+  font-family: "Noto Sans Thai", sans-serif;
+  font-weight: 400;
+  color: #fff5f3;
+  font-size: 25px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-19 {
+  position: absolute;
+  top: 446px;
+  left: 572px;
+  font-family: "Noto Sans Thai", sans-serif;
+  font-weight: 400;
+  color: #fff5f3;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-20 {
+  position: absolute;
+  top: 560px;
+  left: 510px;
+  font-family: "Noto Sans Thai", sans-serif;
+  font-weight: 400;
+  color: #fff5f3;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .phonelogo {
+  position: absolute;
+  width: 32px;
+  height: 39px;
+  top: 378px;
+  left: 476px;
+  object-fit: cover;
+}
+
+.desktop .location {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  top: 304px;
+  left: 385px;
+
+/* เพิ่มเอฟเฟกต์เด้งมีมิติ */
+  transition: transform 0.3s cubic-bezier(0.25, 1.5, 0.5, 1), box-shadow 0.3s ease;
+  transform-origin: center;
+  perspective: 1000px;
+}
+
+/* เด้งขึ้นชัดเจนเมื่อ hover */
+.desktop .location:hover {
+  transform: scale(1.2) translateZ(30px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* เมื่อคลิก (active) กดลง */
+.desktop .location:active {
+  transform: scale(0.95) translateZ(5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.desktop .email {
+  position: absolute;
+  width: 42px;
+  height: 38px;
+  top: 446px;
+  left: 527px;
+
+/* เพิ่ม transition สำหรับเด้งแบบ 3D */
+  transition: transform 0.3s cubic-bezier(0.25, 1.5, 0.5, 1), box-shadow 0.3s ease;
+  transform-origin: center;
+  perspective: 1000px;
+}
+
+/* เมื่อ hover: พุ่งออกมา */
+.desktop .email:hover {
+  transform: scale(1.2) translateZ(30px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* เมื่อคลิก (active): กดลงเบา ๆ */
+.desktop .email:active {
+  transform: scale(0.95) translateZ(5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.desktop .emailto-eng {
+  position: absolute;
+  width: 459px;
+  height: 38px;
+  top: -2792px;
+  left: -1915px;
+}
+
+.map-container {
+  position: absolute;
+  top: 660px;
+  left: 92px;
+  width: 1228px;
+  height: 453px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
